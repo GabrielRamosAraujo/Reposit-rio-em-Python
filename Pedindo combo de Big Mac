@@ -1,0 +1,148 @@
+def big_mac():
+    nome = input("Qual o seu nome? ")
+    ingredientes = ["pão", "hamburguer", "alface", "queijo", "molho", "cebola", "picles", "pão", "hamburguer", "pão",]
+    print(f"Esses são seus ingredientes: {ingredientes}")
+    retirada = input("Gostaria de retirar algum? Se sim digite o nome do ingrediente: ")
+    if retirada == "hamburguer":
+        quantidade = int(input("quantos hamburgueres você quer tirar? "))
+        if quantidade == 1:
+            ingredientes.remove("hamburguer")
+            print(f"Seu Big Mac vai vir com estes ingredientes {ingredientes}")
+        else:
+            for _ in range(quantidade):
+                ingredientes.remove("hamburguer")
+            print(f"Seu Big Mac vai vir com estes ingredientes: {ingredientes}")
+    elif retirada == "alface":
+        ingredientes.remove("alface")
+        print(f"Seu Big Mac vai vir com estes ingredientes {ingredientes}")
+    elif retirada == "queijo":
+        ingredientes.remove("queijo")
+        print(f"Seu Big Mac vai vir com estes ingredientes {ingredientes}")
+    elif retirada == "molho":
+        ingredientes.remove("molho")
+        print(f"Seu Big Mac vai vir com estes ingredientes {ingredientes}")
+    elif retirada == "cebola":
+        ingredientes.remove("cebola")
+        print(f"Seu Big Mac vai vir com estes ingredientes {ingredientes}")
+    elif retirada == "picles":
+        ingredientes.remove("picles")
+        print(f"Seu Big Mac vai vir com estes ingredientes {ingredientes}")
+    else:
+        print("Você optou por não retirar nada do seu Big Mac")
+    
+    adicionais = ["pão", "hamburguer", "alface", "queijo", "molho", "cebola", "picles", "bacon", "tomate"]
+
+    print(f"Essa é a lista de adicionais:\n{adicionais}")
+
+    adicionar = input("Gostaria de adicionar algum ingrediente? Se sim digite o ingrediente: ")
+    if adicionar == "hamburguer":
+        quantidade = int(input("quantos hamburgueres você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("hamburguer")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("hamburguer")
+    elif adicionar == "alface":
+        quantidade = int(input("quantos alfaces você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("alface")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("alface")
+    elif adicionar == "queijo":
+        quantidade = int(input("quantos queijos você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("queijo")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("queijo")
+    elif adicionar == "molho":
+        quantidade = int(input("quantos molhos você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("molho")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("molho")
+    elif adicionar == "cebola":
+        quantidade = int(input("quantas cebolas você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("cebola")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("cebola")
+    elif adicionar == "picles":
+        quantidade = int(input("quantos picles você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("picles")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("picles")
+    elif adicionar == "bacon":
+        quantidade = int(input("quantos bacons você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("bacon")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("bacon")
+    elif adicionar == "tomate":
+        quantidade = int(input("quantos tomates você quer adicionar? "))
+        if quantidade == 1:
+            ingredientes.append("tomate")
+        else:
+            for _ in range(quantidade):
+                ingredientes.append("tomate")
+    else:
+        print("Você optou por não adicionar nada do seu Big Mac")
+
+
+    big_mac_pedido = (f"Big Mac com os ingredientes: {ingredientes}")
+
+    print(f"O seu Big Mac ficou da seguinte maneira: {ingredientes}")
+
+    
+
+    combo = input("Você gostaria de adicionar batata e bebida ao seu pedido? ")
+    if combo == "sim":
+        pedido = []
+        pedido.append(big_mac_pedido)
+        bebida = ["agua", "milkshake", "suco", "refrigerante"]
+        agua = ["com gás", "sem gás"]
+        milkshake = ["morango", "chocolate", "ovomaltine"]
+        suco = ["laranja", "uva"]
+        refrigerante = ["coca", "coca zero", "sprite", "fanta guarana", "fanta laranja"]
+        bebida_pedido = input(f"Qual seria sua bebida? {bebida} ")
+        if bebida_pedido == "agua":
+            agua_pedido = input(f"Gostaria de {agua[0]} ou {agua[1]}? ")
+            print(f"Você escolheu {agua_pedido}!")
+            pedido.append(agua_pedido)
+        elif bebida_pedido == "milkshake":
+            ms_pedido = input(f"Gostaria de {milkshake[0]}, {milkshake[1]} ou {milkshake[2]}? ")
+            print(f"Você escolheu {ms_pedido}!")
+            pedido.append(ms_pedido)
+        elif bebida_pedido == "suco":
+            suco_pedido = input(f"Gostaria de {suco[0]} ou {suco[1]}? ")
+            print(f"Você escolheu {suco_pedido}!")
+            pedido.append(suco_pedido)
+        elif bebida_pedido == "refrigerante":
+            refrigerante_pedido = input(f"Gostaria de {refrigerante[0]}, {refrigerante[1]}, {refrigerante[2]}, {refrigerante[3]} ou {refrigerante[4]}? ")
+            print(f"Você escolheu {refrigerante_pedido}!")
+            pedido.append(refrigerante_pedido)
+        
+        batata = ["pequena", "media", "grande", "cheddar e bacon"]
+        batata_pedido = input(f"Qual seria a sua batata {batata}? ")
+        if batata_pedido == "pequena":
+            print(f"Você escolheu {batata_pedido}!")
+            pedido.append(batata_pedido)
+        elif batata_pedido == "media":
+            print(f"Você escolheu {batata_pedido}!")
+            pedido.append(batata_pedido)
+        elif batata_pedido == "grande":
+            print(f"Você escolheu {batata_pedido}!")
+            pedido.append(batata_pedido)
+        elif batata_pedido == "cheddar e bacon":
+            print(f"Você escolheu {batata_pedido}!")
+            pedido.append(batata_pedido)
+
+        print(f"\n{nome} seu pedido final ficou:\n{pedido[0]}\nBebida: {bebida_pedido} {pedido [1]}\nBatata: {pedido[2]}\nAgradecemos seu pedido, ele será entregue em breve!")
+
+big_mac()
