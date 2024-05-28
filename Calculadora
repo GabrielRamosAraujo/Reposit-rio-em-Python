@@ -1,0 +1,286 @@
+usar = input("Olá, gostaria de usar nossa calculadora? ")
+if usar == "sim":
+    operacao = input("Qual operação matematica você gostaria de realizar? (soma, subtração, divisão ou multiplicação) ")
+    if operacao == "soma":
+        print("Você escolheu soma!")
+        qtdnum = int(input("Quantos números você gostaria de utilizar? "))
+        if qtdnum == 2:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            resultado = num1 + num2
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 3:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            resultado = num1 + num2 + num3
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 4:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            resultado = num1 + num2 + num3 + num4
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 4:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            resultado = num1 + num2 + num3 + num4
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 6:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o quinto número? "))
+            resultado = num1 + num2 + num3 + num4 + num5 + num6
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 7:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            resultado = num1 + num2 + num3 + num4 + num5 + num6 + num7
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 8:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            resultado = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8
+        elif qtdnum == 9:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            num9 = float(input("Qual o nono número? "))
+            resultado = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9
+    
+    elif operacao == "subtração":
+        print("Você escolheu subtração!")
+        qtdnum = int(input("Quantos números você gostaria de utilizar? "))
+        if qtdnum == 2:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            resultado = num1 - num2
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 3:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            resultado = num1 - num2 - num3
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 4:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            resultado = num1 - num2 - num3 - num4
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 5:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            resultado = num1 - num2 - num3 - num4 - num5
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 6:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o quinto número? "))
+            resultado = num1 - num2 - num3 - num4 - num5 - num6
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 7:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            resultado = num1 - num2 - num3 - num4 - num5 - num6 - num7
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 8:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            resultado = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8
+        elif qtdnum == 9:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            num9 = float(input("Qual o nono número? "))
+            resultado = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9
+
+    elif operacao == "divisão":
+        print("Você escolheu divisão!")
+        qtdnum = int(input("Quantos números você gostaria de utilizar? "))
+        if qtdnum == 2:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            resultado = num1 / num2
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 3:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            resultado = num1 / num2 / num3
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 4:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            resultado = num1 / num2 / num3 / num4
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 5:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            resultado = num1 / num2 / num3 / num4 / num5
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 6:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o quinto número? "))
+            resultado = num1 / num2 / num3 / num4 / num5 / num6
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 7:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            resultado = num1 / num2 / num3 / num4 / num5 / num6 / num7
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 8:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            resultado = num1 / num2 / num3 / num4 / num5 / num6 / num7 / num8
+        elif qtdnum == 9:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            num9 = float(input("Qual o nono número? "))
+            resultado = num1 / num2 / num3 / num4 / num5 / num6 / num7 / num8 / num9
+
+    elif operacao == "multiplicação":
+        print("Você escolheu multiplicação!")
+        qtdnum = int(input("Quantos números você gostaria de utilizar? "))
+        if qtdnum == 2:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            resultado = num1 * num2
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 3:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            resultado = num1 * num2 * num3
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 4:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            resultado = num1 * num2 * num3 * num4
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 5:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            resultado = num1 * num2 * num3 * num4 * num5
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 6:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o quinto número? "))
+            resultado = num1 * num2 * num3 * num4 * num5 * num6
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 7:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            resultado = num1 * num2 * num3 * num4 * num5 * num6 * num7
+            print(f"O resultado foi: {resultado}")
+        elif qtdnum == 8:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            resultado = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8
+        elif qtdnum == 9:
+            num1 = float(input("Qual o primeiro número? "))
+            num2 = float(input("Qual o segundo número? "))
+            num3 = float(input("Qual o terceiro número? "))
+            num4 = float(input("Qual o quarto número? "))
+            num5 = float(input("Qual o quinto número? "))
+            num6 = float(input("Qual o sexto número? "))
+            num7 = float(input("Qual o sétimo número? "))
+            num8 = float(input("Qual o oitavo número? "))
+            num9 = float(input("Qual o nono número? "))
+            resultado = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num9
+
+elif usar == "não":
+    print("Você não quis utilizar a calculadora, o sistema vai ser encerrado.")
+else:
+    print("Não entendi, o sistema vai ser encerrado.")
